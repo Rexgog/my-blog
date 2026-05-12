@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索 - 我的博客</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">博客</a>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="about.html">关于</a>
+                <a href="search.html">搜索</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="search-page">
+        <h1>搜索文章</h1>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="输入关键词搜索...">
+            <button onclick="performSearch()">搜索</button>
+        </div>
+        <div class="search-results" id="search-results">
+            <p class="search-hint">输入关键词开始搜索</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 我的博客. 使用纯 HTML 构建</p>
+    </footer>
+
+    <script src="js/posts.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
