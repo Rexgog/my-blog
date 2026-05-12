@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git 使用笔记 - 我的博客</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">博客</a>
+            <div class="nav-links">
+                <a href="../index.html">首页</a>
+                <a href="../about.html">关于</a>
+                <a href="../search.html">搜索</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="post-page">
+        <article>
+            <div class="post-header">
+                <h1>Git 使用笔记</h1>
+                <div class="post-meta">
+                    <span class="post-date">2024-03-01</span>
+                    <span class="post-category">笔记</span>
+                </div>
+                <div class="post-tags">
+                    <span class="post-tag">git</span>
+                    <span class="post-tag">工具</span>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>Git 是现代开发不可或缺的版本控制工具。</p>
+                <h2>基本操作</h2>
+                <pre><code>git init          # 初始化仓库
+git add .         # 添加文件
+git commit -m ""  # 提交</code></pre>
+                <h2>分支操作</h2>
+                <pre><code>git branch         # 查看分支
+git checkout -b   # 创建并切换
+git merge          # 合并分支</code></pre>
+                <h2>远程操作</h2>
+                <pre><code>git push origin main
+git pull origin main</code></pre>
+            </div>
+        </article>
+
+        <div class="post-navigation">
+            <a href="../index.html">← 返回首页</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 我的博客. 使用纯 HTML 构建</p>
+    </footer>
+</body>
+</html>

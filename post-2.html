@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 布局技巧 - 我的博客</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">博客</a>
+            <div class="nav-links">
+                <a href="../index.html">首页</a>
+                <a href="../about.html">关于</a>
+                <a href="../search.html">搜索</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="post-page">
+        <article>
+            <div class="post-header">
+                <h1>CSS 布局技巧</h1>
+                <div class="post-meta">
+                    <span class="post-date">2024-01-20</span>
+                    <span class="post-category">技术</span>
+                </div>
+                <div class="post-tags">
+                    <span class="post-tag">css</span>
+                    <span class="post-tag">前端</span>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>现代 CSS 提供了强大的布局工具：Flexbox 和 Grid。</p>
+                <h2>Flexbox 布局</h2>
+                <p>Flexbox 适合一维布局，可以轻松实现水平垂直居中。</p>
+                <pre><code>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}</code></pre>
+                <h2>Grid 布局</h2>
+                <p>Grid 适合二维布局，可以创建复杂的网格系统。</p>
+                <pre><code>.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}</code></pre>
+            </div>
+        </article>
+
+        <div class="post-navigation">
+            <a href="../index.html">← 返回首页</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 我的博客. 使用纯 HTML 构建</p>
+    </footer>
+</body>
+</html>
